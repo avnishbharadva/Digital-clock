@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin: 124px 0 0 0;
+}
+.container{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 800px;
+    height: 498px;
+}
+#date{
+    margin: 50px 0 60px 0;
+    display: flex;
+    flex-direction: row;
+}
+.day,.month,.year{
+    background-color: rgb(0, 255, 42);
+    margin: 0 10px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 3rem;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+}
+#time{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 5px rgb(0, 255, 42),
+                0px 0px 10px 10px rgb(0, 255, 42),
+                0px 0px 25px 16px rgb(0, 255, 42);
+    border-radius: 5px;
+    padding: 5px 18px;
+    font-size: 4rem;
+    color: rgb(0, 255, 42);
+    font-family: 'Orbitron', sans-serif;
+}
