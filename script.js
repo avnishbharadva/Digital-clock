@@ -10,7 +10,7 @@ function ddate(){
 var d = new Date();
 
 day.innerHTML = d.getDate();
-month.innerHTML = d.getMonth();
+month.innerHTML = d.getMonth()+1;
 year.innerHTML = d.getFullYear();
 }
 
